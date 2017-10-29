@@ -13,6 +13,7 @@
 		02D0F12F1FA5D4C9006BFFB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02D0F12D1FA5D4C9006BFFB4 /* LaunchScreen.storyboard */; };
 		02D0F13A1FA5D4C9006BFFB4 /* GitRepoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D0F1391FA5D4C9006BFFB4 /* GitRepoTests.swift */; };
 		02D0F1451FA5D4C9006BFFB4 /* GitRepoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D0F1441FA5D4C9006BFFB4 /* GitRepoUITests.swift */; };
+		02D0F1581FA5D7E9006BFFB4 /* RepoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D0F1571FA5D7E9006BFFB4 /* RepoListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		02D0F1401FA5D4C9006BFFB4 /* GitRepoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitRepoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02D0F1441FA5D4C9006BFFB4 /* GitRepoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitRepoUITests.swift; sourceTree = "<group>"; };
 		02D0F1461FA5D4C9006BFFB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02D0F1571FA5D7E9006BFFB4 /* RepoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 		02D0F1531FA5D599006BFFB4 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				02D0F1561FA5D7C3006BFFB4 /* RepoList */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -152,6 +155,14 @@
 			children = (
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		02D0F1561FA5D7C3006BFFB4 /* RepoList */ = {
+			isa = PBXGroup;
+			children = (
+				02D0F1571FA5D7E9006BFFB4 /* RepoListViewController.swift */,
+			);
+			path = RepoList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02D0F1581FA5D7E9006BFFB4 /* RepoListViewController.swift in Sources */,
 				02D0F1251FA5D4C9006BFFB4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
