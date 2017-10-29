@@ -14,6 +14,7 @@
 		02D0F13A1FA5D4C9006BFFB4 /* GitRepoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D0F1391FA5D4C9006BFFB4 /* GitRepoTests.swift */; };
 		02D0F1451FA5D4C9006BFFB4 /* GitRepoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D0F1441FA5D4C9006BFFB4 /* GitRepoUITests.swift */; };
 		02D0F1581FA5D7E9006BFFB4 /* RepoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D0F1571FA5D7E9006BFFB4 /* RepoListViewController.swift */; };
+		02D0F15A1FA62684006BFFB4 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D0F1591FA62684006BFFB4 /* Repo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		02D0F1441FA5D4C9006BFFB4 /* GitRepoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitRepoUITests.swift; sourceTree = "<group>"; };
 		02D0F1461FA5D4C9006BFFB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02D0F1571FA5D7E9006BFFB4 /* RepoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListViewController.swift; sourceTree = "<group>"; };
+		02D0F1591FA62684006BFFB4 /* Repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 		02D0F1551FA5D5D6006BFFB4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				02D0F1591FA62684006BFFB4 /* Repo.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02D0F15A1FA62684006BFFB4 /* Repo.swift in Sources */,
 				02D0F1581FA5D7E9006BFFB4 /* RepoListViewController.swift in Sources */,
 				02D0F1251FA5D4C9006BFFB4 /* AppDelegate.swift in Sources */,
 			);
